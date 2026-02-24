@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CupStar — сериалы</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body data-page="index">
+<header class="topbar">
+  <div class="container topbar__inner">
+    <a class="logo" href="index.html">Cup<span>Star</span></a>
+
+    <form class="search" action="index.html" method="get">
+      <input id="searchInput" name="q" placeholder="Поиск сериала...">
+      <button type="submit">Найти</button>
+    </form>
+  </div>
+</header>
+
+<main class="container">
+  <h1 class="title">Каталог сериалов (<span id="count">0</span>)</h1>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer class="footer">
+  <div class="container">© CupStar</div>
+</footer>
+</body>
+</html>

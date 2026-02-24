@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CupStar — просмотр</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body data-page="watch">
+<header class="topbar">
+  <div class="container topbar__inner">
+    <a class="logo" href="index.html">Cup<span>Star</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <a class="back" id="backLink" href="index.html">← к сериалу</a>
+
+  <h1 class="title" id="h1">Просмотр</h1>
+  <p class="notice" id="epTitle"></p>
+
+  <div class="playerwrap">
+    <iframe class="player" id="player" allowfullscreen></iframe>
+  </div>
+
+  <p class="notice">
+    Подсказка: в app.js у каждой серии есть <b>videoUrl</b> (YouTube embed или ваш источник).
+  </p>
+</main>
+
+<footer class="footer">
+  <div class="container">© CupStar</div>
+</footer>
+</body>
+</html>
